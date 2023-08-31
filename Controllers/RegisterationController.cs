@@ -22,11 +22,7 @@ namespace JWTGenerator.Controllers
             _dataContext = dataContext;
             _configuration = configuration;
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="userModel"></param>
-        /// <returns></returns>
+        
 
         [HttpPost("Register")]
         public async Task<ActionResult<string>> Register(UserModel userModel)
